@@ -5,10 +5,9 @@ const DoubleDay = '222.herokuapp.com'
 // Using CF to do porxy? true/false
 const CFproxy = true
 
-// 由于heroku不绑卡不能自定义域名，就算绑卡后https也不方便
-// 另外免费套餐每月550小时，有些人不够用
-// 于是在CF Workers使用此代码，分单双日拉取不同heroku帐号下的相同网页
-// 只改上面，下面不用动
+// Heroku only has 550 hours/month for free plan by default. 
+// This CloudFlare Workers code can let use different Heroku app based on odd or even number's day. 
+// Please change above code for your Heroku's app in either SingleDay or Doubleday parameter. 
 
 addEventListener('fetch', event => {
     let nd = new Date();
