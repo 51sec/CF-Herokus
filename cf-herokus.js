@@ -1,7 +1,7 @@
 // odd days
-const SingleDay = '111.herokuapp.com'
+const SingleDay = 'abc.herokuapp.com'
 // plural days
-const DoubleDay = '222.herokuapp.com'
+const DoubleDay = 'xyz.herokuapp.com'
 // Using CF to do porxy? true/false
 const CFproxy = true
 
