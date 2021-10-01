@@ -11,8 +11,8 @@ This demo site is to list a onedrive content through web page.
 https://myod.51sec.eu.org or https://myod.51sec1.workers.dev
 
 There are two Heroku Apps behind above URL.<br/>
-  -https://myod1.herokuapp.com/  <br/>
-  -https://myod2.herokuapp.com/
+  - https://myod1.herokuapp.com/  <br/>
+  - https://myod2.herokuapp.com/
 
 # Related post
 
