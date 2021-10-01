@@ -25,7 +25,7 @@ Since both apps are used to list files at onedrive, they are basically showing s
 ## 2. Create a new Cloudflare Worker
 Then you will use Cloudflare workers to rotate the access to those two apps using the javascript in this project. 
 Create a new worker:
-<img src="https://photos.51sec.org/file/test1-51sec/2021/10/chrome_yzM67uvvxi.png">
+<img src="https://photos.51sec.org/file/test1-51sec/2021/10/chrome_yzM67uvvxi.png" width = 480>
   <br/>
   <br/>
 ## 3. Paste the code into left script panel,save and deploy
@@ -33,7 +33,8 @@ Create a new worker:
 
   <br/>
   <br/>
-## 4. Option: create your own dns record and add a route to your worker.
+  
+## 4. Option step: create your own dns record and add a route to your worker.
 <img src="https://photos.51sec.org/file/test1-51sec/2021/10/chrome_3gFhRrekzE.png">
 This is an optional steps. If you do not have your own domain, you can still use subdomain from workers.dev. such as my example one: https://myod.51sec1.workers.dev
 If you got your own domain, you can visit your site using your own subdomain:  https://myod.51sec.eu.org
