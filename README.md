@@ -5,6 +5,14 @@ Heroku free plan is only providing 550 hours usage per month. In this case, mult
 This script is just to let Cloudflare easily proxy to multiple Heroku instances based on odd number days or plural number days. 
   <br/>
   <br/>
+  
+# Demo Site
+This demo site is to list a onedrive content through web page. 
+https://myod.51sec.eu.org or https://myod.51sec1.workers.dev
+
+There are two Heroku Apps behind above URL.
+  https://myod1.herokuapp.com/
+  https://myod2.herokuapp.com/
 
 # Related post
 
