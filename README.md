@@ -8,7 +8,7 @@ This script is just to let Cloudflare easily proxy to multiple Heroku instances 
   
 # Demo Site
 This demo site is to list a onedrive content through web page. 
-https://myod.51sec.eu.org or https://myod.51sec1.workers.dev
+https://myod.51sec.eu.org
 
 There are two Heroku Apps behind above URL.<br/>
   - https://myod1.herokuapp.com/  <br/>
